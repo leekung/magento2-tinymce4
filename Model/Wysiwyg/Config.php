@@ -71,7 +71,7 @@ class Config extends \Magento\Cms\Model\Wysiwyg\Config implements ConfigInterfac
 				'skin_url' => $this->_assetRepo->getUrl('PavelLeonidov_TinyMce4/lib/tinymce4/css/skins/lightgray'),
 
 				'content_css' => $this->_assetRepo->getUrl('PavelLeonidov_TinyMce4/lib/tinymce4/css/skins/lightgray/content.min.css'),
-				'width' => '500px',
+				'width' => '100%',
 				'height' => '500px',
 				'plugins' => [],
 			]
